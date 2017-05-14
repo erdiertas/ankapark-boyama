@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boyama Kitabı</title>
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/game-paint.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="erdi-paint-box" class="row">
+                <div class="col-md-12">
+                    <div id="start-page" class="row">
+                        <div class="col-md-12">
+                            <h2>Boyama Kitabı</h2>
+                        </div>
+                        <div class="col-md-12">
+                            <div id="select-image" class="row">
+                                <div id="page-prev" class="col-sm-1">
+                                    <a href="javascript:;"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="col-sm-5 select-image">
+                                    <img src="images/blank.png" alt="" data-image="ayilar_tren"
+                                         style="background-image: url('./images/01.jpg');">
+                                </div>
+                                <div class="col-sm-5 select-image">
+                                    <img src="images/blank.png" alt="" data-image="01"
+                                         style="background-image: url('./images/01.jpg');">
+                                </div>
+                                <div class="col-sm-5 select-image">
+                                    <img src="images/blank.png" alt="" data-image="01"
+                                         style="background-image: url('./images/03.jpg');">
+                                </div>
+                                <div id="page-next" class="col-sm-1">
+                                    <a href="javascript:;"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="play-page" class="row">
+                        <div id="paint-area" class="col-md-12">
+                        </div>
+                        <div id="paint-area-fake" class="col-md-12">
+                        </div>
+                        <div id="colorArea">
+                        </div>
+                        <div id="go-start">
+                            <a href="javascript:;"><img width="53px" src="./images/home.png"></a>
+                        </div>
+                        <div id="paint-download">
+                            <a href="#" download="resim.svg"><img width="53px" src="./images/save.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/game-paint.js"></script>
+
+</body>
+</html>
